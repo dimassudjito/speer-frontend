@@ -13,7 +13,7 @@ const Red = () => {
                 </div>
                 <div className="col">
                     <div class="float-end">
-                        <button className="cta-btn2">TRY IT NOW</button>
+                        <a href="/pricing"><button className="cta-btn2">TRY IT NOW</button></a>
                     </div>
                     <div className="speaker1">
                         <img src="./speaker1.png" className="speaker-pic"/>

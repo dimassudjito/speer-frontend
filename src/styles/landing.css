@@ -3,6 +3,19 @@ body {
     background-color: black;
     font-family: 'helvetica';
 }
+/* Burger */
+.burger{
+    position: fixed;
+    top: 1em;
+    left: 1em;
+    z-index: 12;
+}
+.logo{
+    display: inline;
+    margin: 0.5em;
+    position: relative;
+    top: 0.2em;
+}
 
 /* Hero */
 .overlay { 
@@ -25,7 +38,7 @@ body {
     background-image: linear-gradient(to right, #1FE1E9, #5E33D1, #D34848, #FFB33F);
 }
 
-/* classes used in red section*/
+/* Red section */
 .red {
     background-color: #D34848;
 }
