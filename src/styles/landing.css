@@ -1,20 +1,51 @@
 body {
     color: white;
     background-color: black;
+    font-family: 'helvetica';
 }
 
-.hero {
-    /* background-image: url("https://images.unsplash.com/photo-1526478806334-5fd488fcaabc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1090&q=80"); */
-}
-
+/* Hero */
 .overlay { 
     position:absolute;
     z-index:12;
     top:10em;
     width:100%;
     text-align:center;
-  }
+}
+.hero-headline{
+    width: 500px;
+    margin: auto;
+}
+.cta-btn1{
+    color: white;
+    border: 0px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 40px;
+    background-image: linear-gradient(to right, #1FE1E9, #5E33D1, #D34848, #FFB33F);
+}
 
+/* classes used in red section*/
 .red {
     background-color: #D34848;
+}
+.speaker-pic{
+    width: 10em;
+}
+.speaker1{
+    position: relative;
+    text-align: center;
+    top: 7em;
+}
+.speaker2{
+    position: relative;
+    text-align: center;
+    left: 6em;
+}
+.cta-btn2{
+    color: white;
+    border: 0px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 40px;
 }

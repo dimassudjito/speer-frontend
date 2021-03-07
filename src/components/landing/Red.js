@@ -5,17 +5,22 @@ const Red = () => {
 
     return (
         <div className="red">
-            <div className="row">
+            <div className="row align-items-center p-5">
                 <div className="col">
-                    <h1>Superior sound</h1>
-                    <h3>Experience live versions of your favourite songs</h3>
+                    <h1><strong>SUPERIOR SOUND</strong></h1>
+                    <h5 style={{color:"black"}}>Experience live versions of your favourite songs.</h5>
                     <button className="btn btn-light">SEE DEMO</button>
                 </div>
                 <div className="col">
-                    <button className="btn btn-light">TRY IT NOW</button>
-                    <br/>
-                    <img src="./speaker1.png" className="w-25"/>
-                    <img src="./speaker2.png" className="w-25"/>
+                    <div class="float-end">
+                        <button className="btn btn-light">TRY IT NOW</button>
+                    </div>
+                    <div className="speaker1">
+                        <img src="./speaker1.png" className="speaker-pic"/>
+                    </div>
+                    <div className="speaker2">
+                        <img src="./speaker2.png" className="speaker-pic"/>
+                    </div>
                 </div>
             </div>
         </div>
