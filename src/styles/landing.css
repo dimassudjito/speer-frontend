@@ -8,13 +8,25 @@ body {
     position: fixed;
     top: 1em;
     left: 1em;
-    z-index: 12;
+    z-index: 13;
 }
 .logo{
     display: inline;
     margin: 0.5em;
     position: relative;
     top: 0.2em;
+}
+.burger-item{
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.burger-black{
+    background-color: black;
+    position: fixed;
+    padding: 1em 5em 5em 1em;
+    z-index: 13;
+    border-radius: 0px 200px 200px 200px;
 }
 
 /* Hero */
