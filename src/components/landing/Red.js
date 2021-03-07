@@ -9,11 +9,11 @@ const Red = () => {
                 <div className="col">
                     <h1><strong>SUPERIOR SOUND</strong></h1>
                     <h5 style={{color:"black"}}>Experience live versions of your favourite songs.</h5>
-                    <button className="btn btn-light">SEE DEMO</button>
+                    <button className="cta-btn2">SEE DEMO</button>
                 </div>
                 <div className="col">
                     <div class="float-end">
-                        <button className="btn btn-light">TRY IT NOW</button>
+                        <button className="cta-btn2">TRY IT NOW</button>
                     </div>
                     <div className="speaker1">
                         <img src="./speaker1.png" className="speaker-pic"/>

@@ -20,7 +20,7 @@ body {
     color: white;
     border: 0px;
     font-weight: bold;
-    padding: 10px 20px;
+    padding: 10px 30px;
     border-radius: 40px;
     background-image: linear-gradient(to right, #1FE1E9, #5E33D1, #D34848, #FFB33F);
 }
@@ -43,9 +43,9 @@ body {
     left: 6em;
 }
 .cta-btn2{
-    color: white;
+    color: #D34848;
     border: 0px;
     font-weight: bold;
-    padding: 10px 20px;
+    padding: 10px 30px;
     border-radius: 40px;
 }
